@@ -6,7 +6,11 @@ applications:
   memory: 1G
   instances: 1
   env:
+<<<<<<< HEAD
     REGISTRATION_SERVER_ENDPOINT: https://registration-pal-goose.apps.evans.pal.pivotal.io
+=======
+>>>>>>> ec1afa8... Enable service discovery
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-allocations-database
+  - tracker-service-registry
